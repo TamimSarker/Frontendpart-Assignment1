@@ -1,0 +1,135 @@
+body{
+    margin: auto 50px;
+    background-color: black;
+    color: white;
+}
+.header{
+    background-color: aqua;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-blog{
+    font-size: 50px;
+}
+.belloheader{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.manu a{
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+}
+.manu a:hover{
+    color: whitesmoke;
+    border-bottom: 2px solid gold;
+}
+.text{
+    width: 35%;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+}
+.text h1{
+    font-size: 45px;
+    margin: 0;
+    color: #00FFFF;
+    padding: 0;
+}
+
+.text p{
+    color: blueviolet;
+}
+
+.text i{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #00FFFF;
+    color: blue;
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px;
+    margin: 10px;
+}
+.midd i{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #00FFFF;
+    color: blue;
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px;
+    margin: 10px;
+}
+
+/* middle */
+.mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+   
+
+}
+.mid .middle{
+    /* border: 2px solid #00FFFF; */
+    display: flex;
+    margin: 0% 200px;
+}
+
+.h{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: cyan;
+}
+.mid .middle .midapart{
+    width: 40%;
+    margin-left: 50px;
+}
+
+.midpart{
+    margin-left: 270px;
+}
+
+
+
+.midd{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.contact{
+    margin: 20px 0px;
+    width: 400px;
+    
+    box-shadow: 2px 2px solid black;
+    
+}
+.contact input, textarea{
+    margin-top: 2px;
+    margin-left: 10px;
+    padding-left:10px;
+    padding-top: 4px;
+    border-radius: 25px;
+    height: 30px;
+    width: 90%;
+    
+} 
+/* .contact input[type-submit]{
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    line-height: 5px;
+} */
+.l{
+    margin: 30px;
+}
